@@ -13,9 +13,11 @@ for (var i=0; i<emailList.length;i++){
 }
 if(flagFound){
   console.log("Email trovata");
-  document.getElementById("enter").innerHTML = "<img class='notFound' src='enter.jpg' alt=''>"
+  document.getElementById("text").innerHTML = "<h1>PREGO</h1>"
+  document.getElementById("enter").innerHTML = "<img src='enter.jpg' alt=''>"
 }else{
   console.log("Email non trovata");
-  document.getElementById("stop").innerHTML = "<img class='notFound' src='arnold.jpg' alt=''>"
+  document.getElementById("text").innerHTML = "<h1> NON PUOI ENTRARE </h1>"
+  document.getElementById("stop").innerHTML = "<img src='arnold.jpg' alt=''>"
 };
 
